@@ -1,0 +1,2 @@
+`playwright`        - The low-level browser automation library. Provides the core browser/page/context APIs but has no built-in testrunner, assertions, or fixtures. Use it when you want to drive browsers from your own framework or scripts.
+`@playwright/test`  - The official, batteries-included test framework built on top of `playwright`. Adds a test runner, expect assertions, parallel execution, fixtures, reporters, and the `playwright.config.js` configuration system. This is what most projects should depend on.
